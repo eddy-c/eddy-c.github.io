@@ -58,6 +58,8 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   background-color: #9e8282;
+  border-top: 1px solid #373a3c;
+  border-bottom: 1px solid #373a3c;
 }
 
 .card {
