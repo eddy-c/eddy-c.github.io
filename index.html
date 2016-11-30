@@ -1,116 +1,147 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<!--<link rel="icon" href="../../favicon.ico">-->
-
-	<title>Ed Book</title>
-
-	<!-- Bootstrap core CSS -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-
-	<!-- Custom styles for this template -->
-	<link href="css/album.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A portfolio template that uses Material Design Lite.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>BookEd</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="css/material.min.css" />
+	<link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
-
-	<div class="navbar-collapse collapse inverse" id="navbar-header">
-		<div class="container-fluid">
-			<div class="about">
-				<h4>A propos</h4>
-				<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nunc lacus, interdum quis ultrices id, viverra eu risus.</p>
-			</div>
-			<div class="social">
-				<h4>Contact</h4>
-				<ul class="list-unstyled">
-					<li><a href="#">Profil LinkedIn</a></li>
-					<li><a href="#">Email</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div class="navbar navbar-static-top navbar-dark bg-inverse">
-		<div class="container-fluid">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation"></button>
-			<!--<a href="#" class="navbar-brand">BookEd</a>-->
-		</div>
-	</div>
-
-	<section class="jumbotron text-xs-center">
-		<div class="container">
-			<h1 class="jumbotron-heading">BookEd</h1>
-			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nunc lacus, interdum quis ultrices id, viverra eu risus.</p>
-			<!--<p>
-				<a href="#" class="btn btn-primary">Main call to action</a>
-				<a href="#" class="btn btn-secondary">Secondary action</a>
-			</p>-->
-		</div>
-	</section>
-
-	<div class="album text-muted">
-		<div class="container">
-
-		<div class="row">
-			<div class="card">
-				<img data-src="holder.js/100px280/thumb" alt="Card image cap">
-				<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-			</div>
-			<div class="card">
-				<img data-src="holder.js/100px280/thumb" alt="Card image cap">
-				<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-			</div>
-			<div class="card">
-				<img data-src="holder.js/100px280/thumb" alt="Card image cap">
-				<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-			</div>
-
-			<div class="card">
-				<img data-src="holder.js/100px280/thumb" alt="Card image cap">
-				<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-			</div>
-			<div class="card">
-				<img data-src="holder.js/100px280/thumb" alt="Card image cap">
-				<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-			</div>
-			<div class="card">
-				<img data-src="holder.js/100px280/thumb" alt="Card image cap">
-				<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-			</div>
-
-		</div>
-
-		</div>
-	</div>
-
-	<footer class="text-muted">
-		<div class="container">
-			<p class="float-xs-right">
-				<a href="#">Back to top</a>
-			</p>
-			<p></p>
-			<!--<p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>-->
-		</div>
-	</footer>
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
-<script src="js/holder.min.js"></script>
-<script>
-$(function () {
-Holder.addTheme("thumb", { background: "#55595c", foreground: "#eceeef", text: "Thumbnail" });
-});
-</script>
-<script src="js/bootstrap.min.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="js/ie10-viewport-bug-workaround.js"></script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+            <div class="mdl-layout__header-row portfolio-logo-row">
+                <span class="mdl-layout__title">
+                    <div class="portfolio-logo"></div>
+                    <span class="mdl-layout__title">BookEd</span>
+                </span>
+            </div>
+            <!--div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                    <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
+                    <a class="mdl-navigation__link" href="blog.html">Blog</a>
+                    <a class="mdl-navigation__link" href="about.html">About</a>
+                    <a class="mdl-navigation__link" href="contact.html">Contact</a>
+                </nav>
+            </div>-->
+        </header>
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
+                <a class="mdl-navigation__link" href="blog.html">Blog</a>
+                <a class="mdl-navigation__link" href="about.html">About</a>
+                <a class="mdl-navigation__link" href="contact.html">Contact</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="mdl-grid portfolio-max-width">
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <!--<img class="article-image" src=" images/le-screenshot.png" border="0" alt="">-->
+                        <img class="article-image" src=" images/avocat.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Avocats</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Ce site pour un cabinet d'avocats offre un layout comportant une photo plein ecran et un contenu défilant sur la droite.
+					</div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="avocats.html">Détails</a>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/sites.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Webdev</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Site réalisé pour promouvoir mon activité d'intégrateur web. Un layout plein écran avec effet parallax et des animations lors de la consultation de la page.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="#">Détails</a>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/store.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Store</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Deux sites e-commerce sous Prestashop, utilisant chacun son propre thème modifiés dans leur charte graphiuque.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="#">Détails</a>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/pizzeria.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Pizzeria</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Site entièrement responsive pour une pizeeria situé dans le centre ville de Nice. Layout plein écran avec un fond d'écran en effet parallax.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="#">Détails</a>
+                    </div>
+                </div>				
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/cssoff13.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">CSSOff '13</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="#">Détails</a>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/cv.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">CV</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Site CV resposive avec jeux de couleurs et focus sur le contenu au pssage de la souris.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="#">Détails</a>
+                    </div>
+                </div>
+            </div>
+            <footer class="mdl-mini-footer">
+                <div class="mdl-mini-footer__left-section">
+                    <!--<div class="mdl-logo">Simple portfolio website</div>-->
+                </div>
+                <div class="mdl-mini-footer__right-section">
+                    <p>You affect the world by what you browse. <br /> Tim Berners-Lee</p>
+					<!--<ul class="mdl-mini-footer__link-list">
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Privacy & Terms</a></li>
+                    </ul>-->
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script src="js/material.min.js"></script>
 </body>
+
 </html>
