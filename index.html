@@ -1,148 +1,160 @@
-<!doctype html>
-<html lang="en">
-
-<head>
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A portfolio template that uses Material Design Lite.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>BookEd</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="css/material.min.css" />
-	<link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<body>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
-            <div class="mdl-layout__header-row portfolio-logo-row">
-                <span class="mdl-layout__title">
-                    <div class="portfolio-logo"></div>
-                    <span class="mdl-layout__title">BookEd</span>
-                </span>
+    <title>Week-end à Annot du 7/8 juillet 2018</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
+
+    <!-- Custom styles for this template -->
+    <link href="css/full-width-pics.css" rel="stylesheet">
+	
+    <!-- FontAwesome JS -->
+	<script src="vendor/fontawesome/js/fontawesome5-all.js"></script>
+
+  </head>
+
+  <body id="page-top">
+    
+	<header class="masthead">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 mx-auto">
+              <h1 class="brand-heading">Week-End à Annot</h1>
+			  <hr>
+              <h1>7-8 juillet 2018</h1>
+			  <!--<hr>			  
+              <p class="intro-text">Pour passer un bon moment <br/>ensemble dans le Sud au <br/>début de l'été</p>-->
+              <a href="#hebergement" class="btn btn-circle js-scroll-trigger">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
             </div>
-            <!--div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
-                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                    <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
-                    <a class="mdl-navigation__link" href="blog.html">Blog</a>
-                    <a class="mdl-navigation__link" href="about.html">About</a>
-                    <a class="mdl-navigation__link" href="contact.html">Contact</a>
-                </nav>
-            </div>-->
-        </header>
-        <!--<div class="mdl-layout__drawer mdl-layout--small-screen-only">
-            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
-                <a class="mdl-navigation__link" href="blog.html">Blog</a>
-                <a class="mdl-navigation__link" href="about.html">About</a>
-                <a class="mdl-navigation__link" href="contact.html">Contact</a>
-            </nav>
-        </div>-->
-        <main class="mdl-layout__content">
-            <div class="mdl-grid portfolio-max-width">
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <!--<img class="article-image" src=" images/le-screenshot.png" border="0" alt="">-->
-                        <img class="article-image" src=" images/avocat.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Cabinet d'Avocats</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Ce site pour un cabinet d'avocats offre un layout comportant une photo plein ecran et un contenu défilant sur la droite. Développer en HTML5/CSS3 ainsi que jQuery.
-					</div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" target="_blank" href="projets/avocats/index.html">Visualiser</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/sites.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Webdev</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Site réalisé pour promouvoir mon activité d'intégrateur web. Un layout plein écran avec effet parallax et des animations lors de la consultation de la page. Développer en HTML5/CSS3 ainsi que jQuery.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" target="_blank" href="projets/webdev/index.html">Visualiser</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/store.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Store - eCommerce</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Deux sites e-commerce réalisés avec le CMS Prestashop, utilisant chacun son propre thème modifié.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" target="_blank" href="http://vape-store.fr/fr/">Visualiser</a>
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" target="_blank" href="http://ciga-tech.fr/fr/">Visualiser</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/pizzeria.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Pizzeria</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Site entièrement responsive pour une pizzeria. Layout plein écran avec un fond d'écran en effet parallax. Développer en HTML5/CSS3 ainsi que jQuery.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" target="_blank" href="projets/pizzeria/index.html">Visualiser</a>
-                    </div>
-                </div>				
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/cssoff13.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">CSSOff</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Page développé dans le cadre d'un concours pour les développeurs front-end.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" target="_blank" href="projets/cssoff/index.html">Visualiser</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/cv.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Curriculum Vitae</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Site CV responsive avec jeux de couleurs et focus sur le contenu au pssage de la souris. Développer en HTML5/CSS3 ainsi que jQuery.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" target="_blank" href="projets/cv/index.html">Visualiser</a>
-                    </div>
-                </div>
-            </div>
-            <footer class="mdl-mini-footer">
-                <div class="mdl-mini-footer__left-section">
-                    <!--<div class="mdl-logo">Simple portfolio website</div>-->
-                </div>
-                <div class="mdl-mini-footer__right-section">
-                    <!--<p>You affect the world by what you browse. <br /> Tim Berners-Lee</p>-->
-					<!--<ul class="mdl-mini-footer__link-list">
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">Privacy & Terms</a></li>
-                    </ul>-->
-                </div>
-            </footer>
-        </main>
-    </div>
-    <script src="js/material.min.js"></script>
-</body>
+          </div>
+        </div>
+      </div>
+    </header>
+	
+    <!-- Content section -->
+    <section id="hebergement" class="py-5" style="background: #fdae52;background: -webkit-linear-gradient(#fdae52,#fbbd22);background: linear-gradient(#fdae52,#fbbd22); border-top: 1px solid #fff;border-bottom: 1px solid #fff;">
+      <div class="container">
+		<div class="row">
+			<div class="col-lg-8 mx-auto">
+				<h1><i class="fas fa-home"></i> Hébergement</h1>
+				<hr>
+				<p>La maison comprend :</p>
+					<ul style="padding-left: 18px;">
+						<li>2 chambres avec un lit double dans chaque chambre</li>
+						<li>un canapé-lit 2 places et un canapé 1 place dans le salon</li>
+					</ul>
+				<p>Également, une maison de jardin comprend une grande chambre avec lit double et sa salle de bain.</p>			
+				<p>Des tentes peuvent être montées dans le jardin pour les baroudeuses et les baroudeurs.</p>
+				<p>Enfin, il y a la possibilité de louer un petit chalet juste à côté de la maison. Le chalet communique avec notre jardin par un petit portail :
+					<a href="http://www.lepremartin.com/location-hebergement-gite-chalet-salle-annot/annot-location-chalet-gite-hebergement" target="_blank">cliquer ici pour plus de renseignements.</a>
+				</p>			
+			</div> 
+
+			<div class="col-lg-4 mx-auto"> 		
+				<div class="card" style="background-color: #fff;">
+				
+				<div class="card-body">
+				<h2><i class="fas fa-map-signs"></i> Localisation</h2>
+				<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+				<p style="font-size: 0.90em;"><a href="https://fr.wikipedia.org/wiki/Annot" target="_blank">Annot</a> est un village dans le département des Alpes de Haute-Provence (04). <br> Je peux avoir 2 voitures ce week-end.</p>
+				</div>
+				<a target="_blank" href="https://www.google.fr/maps/dir/A%C3%A9roport+Nice+C%C3%B4te+d'Azur+(NCE),+Rue+Costes+et+Bellonte,+Nice,+France/04240+Annot,+France/@43.8325685,6.7321264,9z/data=!4m14!4m13!1m5!1m1!1s0x12cdd11897ae99f3:0x80532b1cc923c1b4!2m2!1d7.2148214!2d43.6597689!1m5!1m1!1s0x12cc6bf70906f281:0xafbf70c925977d3!2m2!1d6.666861!2d43.966368!3e0">
+				<img class="card-img-bottom" src="img/gmap.jpg" alt="">
+				</a>
+				</div>
+			</div>
+		</div>
+	  </div>
+    </section>
+
+    <!-- Image Section - set the background image for the header in the line below -->
+    <section class="py-5 bg-image-full" style="background-image: url(img/annot-tente2.jpg);">
+      <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
+      <div style="height: 300px;"></div>
+    </section>
+
+    <!-- Content section -->
+    <section id="activites" class="py-5" style="background: #81bd8a;background: -webkit-linear-gradient(#81bd8a,#19a22e);background: linear-gradient(#81bd8a,#19a22e); border-top: 1px solid #fff;border-bottom: 1px solid #fff;">
+      <div class="container">
+		<div class="row">
+			<div class="col-lg-12 mx-auto">
+			   <h1><i class="fas fa-puzzle-piece"></i> Activités</h1>
+			   <hr>
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col-lg-3 mx-auto"> 		
+				<div class="card" >
+				<img class="card-img-top" src="img/annot-jacuzzi.jpg" alt="Card image cap">
+				<div class="card-body">
+				<h4>Piscine et jacuzzi</h4>
+				<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+				</div>
+				</div>
+			</div>				
+			<div class="col-lg-3 mx-auto my-3"> 		
+				<div class="card">
+				<img class="card-img-top" src="img/annot-terrain.jpg" alt="Card image cap">
+				<div class="card-body">
+				<h4>Terrain de pétanque et de möllky</h4>
+				<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+				</div>
+				</div>
+			</div>
+			<div class="col-lg-3 mx-auto"> 		
+				<div class="card">
+				<img class="card-img-top" src="img/annot-gres.jpg" alt="Card image cap">
+				<div class="card-body">
+				<h4>Randonnée dans les <a href="https://fr.wikipedia.org/wiki/Annot#G%C3%A9ologie" target="_blank">"grès"</a> d'Annot</h4>
+				<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+				</div>
+				</div>
+			</div>
+			<div class="col-lg-3 mx-auto mt-3"> 
+			
+				<div class="card">
+				<img class="card-img-top" src="img/annot-barbecue.jpg" alt="Card image cap">
+				<div class="card-body">
+				<h4>Barbecue</h4>
+				<!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+				</div>
+				</div>
+			</div>				
+		</div>	
+    </section>
+	
+	<!-- Image Section - set the background image for the header in the line below -->
+    <section class="py-5 bg-image-full" style="background-image: url(img/annot-terrain.jpg);">
+      <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
+		<div style="height: 250px;"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5">
+      <div class="container">
+        <h2 class="m-0 text-center">Annot is waiting for you...</h2>
+		<p class="m-0 pt-2 text-center">Afin de faciliter les déplacements depuis Nice, ontactez-moi avant l'achat de  vos billets pour coordonner les arrivées et les départs.</p>
+      </div>
+     </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="js/functions.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+
+  </body>
 
 </html>

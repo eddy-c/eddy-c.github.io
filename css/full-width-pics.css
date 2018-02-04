@@ -1,0 +1,135 @@
+/*!
+ * Start Bootstrap - Full Width Pics (https://startbootstrap.com/template-overviews/full-width-pics)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
+ */
+
+ html {
+  width: 100%;
+  height: 100%; }
+  
+body {
+  /*padding-top: 54px;*/
+
+
+position: relative;
+width: 100%;
+height: 100%;
+color: #fff;
+background-color: #000;
+}
+
+@media (min-width: 992px) {
+  body {
+    /*padding-top: 56px;*/
+  }
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+h1,h2 {
+	font-family: 'Pacifico', cursive;
+	margin-bottom: 25px;
+	text-align: center;
+	 
+}
+
+.brand-heading {
+	/*color: #ff7800;*/
+	color: #f8cb4c;	
+	text-shadow: 1px 1px #000;
+}
+
+header h1 {
+	font-size: 3.5em;
+	color: #ff7800;
+	text-shadow: 1px 1px #000;
+}
+
+section {
+	color: black;
+}
+
+section h1{
+	font-size: 3em;
+}
+
+section p, li {
+	font-size:1.1em;
+}
+
+.card {
+	/*background-color:#a7f69b;*/
+	background-color:#f3f9c9;
+	color: #676767;
+	text-align: center;
+	padding: 12px;
+}
+
+footer {
+	background-color: #1d809f ;
+	/*background: -webkit-linear-gradient(#fdcc52,#fdc539);
+	background: linear-gradient(#fdcc52,#fdc539);*/
+	color: #fff;
+	border-top: 1px solid #fff;
+}
+hr {
+	max-width: 100px;
+	border-width: 2px;
+	border-color: #863bf2;
+	/*border-color: #1d809f;*/
+}
+
+
+.masthead {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 200px 0;
+  text-align: center;
+  color: white;
+  background: url("../img/annot-vue2.jpg") no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .masthead .intro-body {
+    display: table-cell;
+    vertical-align: middle; }
+    .masthead .intro-body .brand-heading {
+      font-size: 50px; }
+    .masthead .intro-body .intro-text {
+      font-size: 18px; }
+  @media (min-width: 768px) {
+    .masthead {
+      height: 100%;
+      /*padding: 0;*/ }
+      .masthead .intro-body .brand-heading {
+        font-size: 100px; }
+      .masthead .intro-body .intro-text {
+        font-size: 22px; } }
+		
+		.btn-circle {
+  font-size: 26px;
+  width: 55px;
+  height: 55px;
+  margin-top: 15px;
+  line-height: 45px;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+  color: white;
+  border: 2px solid white;
+  border-radius: 100% !important;
+  background: transparent; }
+  .btn-circle:focus, .btn-circle:hover {
+    color: white;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1); }
